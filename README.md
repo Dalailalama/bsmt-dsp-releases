@@ -1,0 +1,35 @@
+# BSMT.DSP — DOWNLOADS
+
+**DR.DAWGOG AUDIO TOOLS** — a free brutalist audio plugin suite for
+Windows (VST3 + standalone, 64-bit).
+
+## The suite
+
+| # | Plugin | What it is |
+|---|--------|-----------|
+| 01 | **BONESAW** | 12-band M/S parametric EQ — drag the curve, live before/after spectrum, piano-key ruler |
+| 02 | **BASEMENT** | dusty character reverb — procedural impulses, DUST dial, built-in ducking |
+| 03 | **KNUCKLE** | compressor — VCA / FET / OPTO circuits + one-knob SMASH |
+| 04 | **CEILING** | lookahead limiter + full BS.1770 LUFS metering with streaming targets |
+| 05 | **OVERBITE** | 4x oversampled clipper — DELTA "hear what dies" monitor, TP-SAFE |
+| 06 | **STAIRWELL** | dusty tape delay — wow/flutter, degrading repeats, true ping-pong, ducking |
+
+## Install
+
+1. Grab the latest `BSMT-DSP-Setup-x.y.z.exe` from
+   [**Releases**](../../releases/latest).
+2. Run it. Windows SmartScreen may warn on new releases (unsigned indie
+   build) — click **More info → Run anyway**.
+3. Pick your plugins (VST3s install to `C:\Program Files\Common Files\VST3`).
+4. Rescan plugins in your DAW. Done.
+
+Updating: just run the newer installer — it detects your version and asks
+to update. Projects and presets are untouched.
+
+## Requirements
+
+64-bit Windows 10/11. Any VST3 host (FL Studio, Ableton, Reaper, ...).
+Nothing else to install.
+
+---
+BSMT.DSP V1.0 · DR.DAWGOG · FREE / UNCUT
