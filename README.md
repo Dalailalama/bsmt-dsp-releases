@@ -31,5 +31,10 @@ to update. Projects and presets are untouched.
 64-bit Windows 10/11. Any VST3 host (FL Studio, Ableton, Reaper, ...).
 Nothing else to install.
 
+## Support
+
+The suite is FREE / UNCUT. If it earns a place in your chain, fuel the
+basement: **[buymeacoffee.com/dawgog](https://buymeacoffee.com/dawgog)**
+
 ---
 BSMT.DSP V1.0 · DR.DAWGOG · FREE / UNCUT
