@@ -18,8 +18,13 @@ Windows (VST3 + standalone, 64-bit).
 
 ## Install
 
-1. Grab the latest `BSMT-DSP-Setup-x.y.z.exe` from
-   [**Releases**](../../releases/latest).
+### [&#11015; DOWNLOAD — BSMT-DSP-Setup-1.0.0.exe](https://github.com/Dalailalama/bsmt-dsp-releases/releases/download/v1.0.0/BSMT-DSP-Setup-1.0.0.exe)
+
+*(Windows 64-bit installer. That link is all you need — the "Source code"
+zips GitHub adds under Releases are automatic and contain nothing but this
+page.)*
+
+1. Download the installer above.
 2. Run it. Windows SmartScreen may warn on new releases (unsigned indie
    build) — click **More info → Run anyway**.
 3. Pick your plugins (VST3s install to `C:\Program Files\Common Files\VST3`).
