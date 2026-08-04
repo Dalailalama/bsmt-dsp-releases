@@ -1,5 +1,7 @@
 # BSMT.DSP — DOWNLOADS
 
+<a href="https://buymeacoffee.com/dawgog"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="48"></a>
+
 **DR.DAWGOG AUDIO TOOLS** — a free brutalist audio plugin suite for
 Windows (VST3 + standalone, 64-bit).
 
