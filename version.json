@@ -1,0 +1,13 @@
+{
+  "product": "BSMT.DSP",
+  "version": "1.1.0",
+  "date": "2026-08-08",
+  "plugins": 27,
+  "windows": {
+    "installer": "https://github.com/Dalailalama/bsmt-dsp-releases/releases/download/v1.1.0/BSMT-DSP-Setup-1.1.0.exe",
+    "size_mb": 5.9
+  },
+  "mac": null,
+  "notes": "27 plugins. 19 new: doubler, vocal rider, formant mangler, spectral ducker, resonance suppressor, 808 enhancer, throw FX, vocoder, pump, gate, imager, ensemble, lo-fi, filter, saturator, de-esser, OTT, breath control, vocal strip.",
+  "release_page": "https://github.com/Dalailalama/bsmt-dsp-releases/releases/latest"
+}
