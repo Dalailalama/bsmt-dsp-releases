@@ -1,0 +1,60 @@
+<!-- BSMT.DSP download card — paste this whole block anywhere in your page.
+     Self-contained (styles scoped, fonts loaded, no dependencies).
+     It fetches version.json from the releases repo, so the version number
+     and download link update THEMSELVES every time a new release ships. -->
+<div id="bsmt-dl-card">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=JetBrains+Mono:wght@400;700&display=swap');
+    #bsmt-dl-card { --ink:#0a0908; --bone:#f3eee3; --blood:#d4351e; --rust:#6b1d0f;
+      background:var(--ink); color:var(--bone); border:2px solid var(--bone);
+      padding:28px; max-width:520px; font-family:'JetBrains Mono',monospace; }
+    #bsmt-dl-card * { box-sizing:border-box; margin:0; border-radius:0 !important; }
+    #bsmt-dl-card .bsmt-t { font-family:'Anton',sans-serif; font-size:42px;
+      letter-spacing:1px; line-height:1; text-transform:uppercase; }
+    #bsmt-dl-card .bsmt-t span { color:var(--blood); }
+    #bsmt-dl-card .bsmt-sub { font-size:11px; letter-spacing:2px; color:rgba(243,238,227,.7);
+      margin-top:8px; text-transform:uppercase; }
+    #bsmt-dl-card .bsmt-btn { display:block; margin-top:20px; background:var(--blood);
+      color:var(--bone); text-decoration:none; text-align:center; padding:16px 10px;
+      font-family:'Archivo Black',sans-serif; font-size:16px; letter-spacing:1.5px;
+      text-transform:uppercase; border:2px solid var(--bone); }
+    #bsmt-dl-card .bsmt-btn:hover { background:var(--bone); color:var(--ink); }
+    #bsmt-dl-card .bsmt-meta { display:flex; justify-content:space-between;
+      margin-top:12px; font-size:11px; color:rgba(243,238,227,.55); letter-spacing:1px; }
+    #bsmt-dl-card .bsmt-mac { margin-top:14px; padding:10px; border:1px solid rgba(243,238,227,.25);
+      font-size:11px; letter-spacing:1px; color:rgba(243,238,227,.7); text-transform:uppercase; }
+    #bsmt-dl-card .bsmt-sup { margin-top:14px; font-size:11px; }
+    #bsmt-dl-card .bsmt-sup a { color:var(--blood); }
+  </style>
+  <div class="bsmt-t">BSMT<span>.DSP</span></div>
+  <div class="bsmt-sub"><span id="bsmt-count">27</span> free plugins &middot; VST3 + standalone &middot; win 64-bit</div>
+  <a id="bsmt-btn" class="bsmt-btn"
+     href="https://github.com/Dalailalama/bsmt-dsp-releases/releases/latest">
+    DOWNLOAD V<span id="bsmt-ver">1.1.0</span></a>
+  <div class="bsmt-meta">
+    <span>FREE / UNCUT</span>
+    <span id="bsmt-date"></span>
+    <span>UNSIGNED BUILD: SMARTSCREEN &rarr; RUN ANYWAY</span>
+  </div>
+  <div class="bsmt-mac" id="bsmt-mac">MAC: COMING SOON</div>
+  <div class="bsmt-sup">Fuel the basement:
+    <a href="https://buymeacoffee.com/dawgog">buymeacoffee.com/dawgog</a></div>
+  <script>
+    (function () {
+      fetch('https://raw.githubusercontent.com/Dalailalama/bsmt-dsp-releases/main/version.json')
+        .then(function (r) { return r.json(); })
+        .then(function (v) {
+          document.getElementById('bsmt-ver').textContent = v.version;
+          document.getElementById('bsmt-count').textContent = v.plugins;
+          document.getElementById('bsmt-date').textContent = v.date;
+          if (v.windows && v.windows.installer)
+            document.getElementById('bsmt-btn').href = v.windows.installer;
+          if (v.mac && v.mac.installer) {
+            var m = document.getElementById('bsmt-mac');
+            m.innerHTML = '<a style="color:#d4351e" href="' + v.mac.installer + '">MAC: DOWNLOAD</a>';
+          }
+        })
+        .catch(function () { /* static fallback links stay valid */ });
+    })();
+  </script>
+</div>
