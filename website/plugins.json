@@ -1,0 +1,142 @@
+{
+  "product": "BSMT.DSP",
+  "vendor": "DR.DAWGOG",
+  "tagline": "27 free plugins built in the basement. VST3 + standalone, Windows 64-bit.",
+  "plugins": [
+    {
+      "num": "01", "slug": "bonesaw", "name": "BONESAW", "type": "12-band M/S parametric EQ",
+      "image": "bsmt-01-bonesaw.jpg",
+      "description": "The curve IS the interface: double-click to spawn bands, drag them on a live before/after spectrum, wheel for Q. Every band can work the whole signal or just the MID or SIDE. Piano-key ruler so you can EQ in notes, A/B snapshots for honest decisions."
+    },
+    {
+      "num": "02", "slug": "basement", "name": "BASEMENT", "type": "character reverb",
+      "image": "bsmt-02-basement.jpg",
+      "description": "Procedurally generated impulse spaces, from closet to cathedral, aged by a single DUST dial that adds wow, crackle and bit-rot. Pre-delay locks to beat divisions and decay to bars, so the tail always dies exactly on the phrase. Built-in ducking keeps the vocal in front."
+    },
+    {
+      "num": "03", "slug": "knuckle", "name": "KNUCKLE", "type": "compressor",
+      "image": "bsmt-03-knuckle.jpg",
+      "description": "Three circuit personalities: clean VCA, biting FET with drive and grit, slow-blooming OPTO. The GR history strip shows the exact chunk being removed, in red, over your input. When you stop caring about theory, one SMASH knob does the whole job."
+    },
+    {
+      "num": "04", "slug": "ceiling", "name": "CEILING", "type": "limiter + LUFS metering",
+      "image": "bsmt-04-ceiling.jpg",
+      "description": "Lookahead brickwall limiting with full BS.1770 loudness metering at input AND output: momentary, short-term and gated integrated LUFS. Streaming target guides for Spotify, Apple, YouTube, club and R128 so you master TO a number, not a guess. True-peak estimation included."
+    },
+    {
+      "num": "05", "slug": "overbite", "name": "OVERBITE", "type": "oversampled clipper",
+      "image": "bsmt-05-overbite.jpg",
+      "description": "Variable-knee clipping at up to 16x oversampling with the ceiling and knee drawn right on the transfer curve and scope. DELTA mode plays only what the clipper destroys, so you know exactly what you traded for loudness. TP-SAFE auto-trims when true peaks try to sneak over."
+    },
+    {
+      "num": "06", "slug": "stairwell", "name": "STAIRWELL", "type": "tape delay",
+      "image": "bsmt-06-stairwell.jpg",
+      "description": "A delay that behaves like a machine, not an equation: time changes glide tape-style, repeats darken and saturate cumulatively, DUST adds wow, flutter and crackle to the loop. True ping-pong alternates hard left-right even on mono sources, with a SEP width control. Tempo sync, ducking, self-oscillation past 100%."
+    },
+    {
+      "num": "07", "slug": "piston", "name": "PISTON", "type": "transient shaper",
+      "image": "bsmt-07-piston.jpg",
+      "description": "Twin pistons for ATTACK and SUSTAIN: add knock or take it away, choke tails or pull up room. PUNCH sets how long a hit counts as a hit, FOCUS keeps bass from fooling the detector. The impact scope draws the applied gain in blood so you see every dent."
+    },
+    {
+      "num": "08", "slug": "lockjaw", "name": "LOCKJAW", "type": "hard-tune vocal effect",
+      "image": "bsmt-08-lockjaw.jpg",
+      "description": "The jaw locks onto pitch: pick KEY and SCALE, set RETUNE to zero for full robot or ease it up for natural glide between notes. Formant-preserving engine means no chipmunk at any setting. The pitch lane shows your raw voice in rust and the locked note in blood."
+    },
+    {
+      "num": "09", "slug": "xerox", "name": "XEROX", "type": "vocal doubler",
+      "image": "bsmt-09-xerox.jpg",
+      "description": "Up to four detuned, time-shifted copies of your vocal, spread across the field: single, pair, trio or choir. HUMAN adds the slow drift real double-takes have, so it never sounds like a chorus pedal. Watch each copy live in its own cell, with a correlation bar guarding your mono."
+    },
+    {
+      "num": "10", "slug": "elevator", "name": "ELEVATOR", "type": "automatic vocal rider",
+      "image": "bsmt-10-elevator.jpg",
+      "description": "Set a TARGET level and the fader rides every phrase to it, within a RANGE you allow, at a SPEED you choose. Below the FLOOR it freezes, so breaths and room noise never get pulled up. Stop drawing volume automation forever."
+    },
+    {
+      "num": "11", "slug": "larynx", "name": "LARYNX", "type": "formant + pitch mangler",
+      "image": "bsmt-11-larynx.jpg",
+      "description": "Shift PITCH and FORMANT independently: octave-down demons with a normal-sized throat, or chipmunk formants on the original note. ROBOT flattens everything to a monotone C3. DRIVE adds tube heat on the way out — the dark creative cousin of LOCKJAW."
+    },
+    {
+      "num": "12", "slug": "crowbar", "name": "CROWBAR", "type": "sidechain spectral ducker",
+      "image": "bsmt-12-crowbar.jpg",
+      "description": "Put it on the beat, sidechain the vocal into it, and the beat ducks ONLY the frequencies the vocal is using, only while it speaks. 24 spectral bands carve automatically; the display shows exactly where the crowbar is prying. DELTA plays just what got removed."
+    },
+    {
+      "num": "13", "slug": "solvent", "name": "SOLVENT", "type": "dynamic resonance suppressor",
+      "image": "bsmt-13-solvent.jpg",
+      "description": "Finds the harsh, boxy, whistly peaks that poke above the spectral envelope and dissolves them only while they flare. SELECTIVITY decides what counts as a resonance, DEPTH how hard it melts. Transparent at defaults, surgical when pushed — the why-does-it-sound-pro-now plugin."
+    },
+    {
+      "num": "14", "slug": "bedrock", "name": "BEDROCK", "type": "808 / sub enhancer",
+      "image": "bsmt-14-bedrock.jpg",
+      "description": "Generates the 2nd and 3rd harmonics of your sub, tracked to the 808's own envelope, so bass reads on phone speakers and earbuds that can't reproduce the fundamental. TIGHT cleans mud below the focus note, mono-below keeps the low end club-safe. Louder-sounding bass without being louder."
+    },
+    {
+      "num": "15", "slug": "slingshot", "name": "SLINGSHOT", "type": "ad-lib throw FX",
+      "image": "bsmt-15-slingshot.jpg",
+      "description": "One giant THROW pad: hold it to fling a word into tempo-synced delay, reverb or both — release and the tail rings out on its own. Ping-pong bounce, darkening repeats, and ducking so throws never bury the next line. Hold for momentary, tap to latch, automate the pad from your DAW."
+    },
+    {
+      "num": "16", "slug": "intercom", "name": "INTERCOM", "type": "vocoder / harmonizer",
+      "image": "bsmt-16-intercom.jpg",
+      "description": "A 16-band vocoder that tracks your voice and rebuilds it on synth carriers, snapped to your KEY and SCALE. Chord modes stack octaves, fifths, minor or major harmonies from a single take. From radio-robot to gospel stack with two clicks."
+    },
+    {
+      "num": "17", "slug": "pumpjack", "name": "PUMPJACK", "type": "tempo-synced pump",
+      "image": "bsmt-17-pumpjack.jpg",
+      "description": "Sidechain pumping with zero routing: a beat-locked duck curve with SHAPE, OFFSET and a live playhead, locked to the DAW grid so loops never drift. Or hit DRAW and paint your own 16-step volume pattern right on the display. Kickstart energy, BSMT attitude."
+    },
+    {
+      "num": "18", "slug": "deadbolt", "name": "DEADBOLT", "type": "gate / expander",
+      "image": "bsmt-18-deadbolt.jpg",
+      "description": "A gate with hysteresis and HOLD, which is the polite way of saying it never machine-guns. GATE mode slams shut to a set floor; EXPAND mode leans on quiet parts gently. The history strip shows the detector against your threshold and exactly when the bolt was thrown."
+    },
+    {
+      "num": "19", "slug": "wingspan", "name": "WINGSPAN", "type": "stereo imager",
+      "image": "bsmt-19-wingspan.jpg",
+      "description": "Two-zone width: keep the low end tight and mono-safe while the highs stretch wide. Goniometer, correlation history and a MONO check button tell you the truth about phone speakers before your listeners find out. SAFE mode auto-guards against phase cancellation."
+    },
+    {
+      "num": "20", "slug": "seance", "name": "SEANCE", "type": "chorus / ensemble",
+      "image": "bsmt-20-seance.jpg",
+      "description": "Two to six detuned voices orbiting the stereo field, with DUST adding the slow irregular drift of dying hardware. Lush on pads, thick on guitars, ghostly on vocals. Watch the voices circle the table on the display."
+    },
+    {
+      "num": "21", "slug": "attic", "name": "ATTIC", "type": "lo-fi texture box",
+      "image": "bsmt-21-attic.jpg",
+      "description": "One AGE macro over tape wear, vinyl crackle, hiss and bit-crush — the noise only breathes while your audio actually plays. BANDBOX voicings snap the whole sound into PHONE, RADIO or VHS in one click. The slowed-and-reverb aesthetic, on tap."
+    },
+    {
+      "num": "22", "slug": "trench", "name": "TRENCH", "type": "performance filter",
+      "image": "bsmt-22-trench.jpg",
+      "description": "One DJ-law CUTOFF knob: left closes a lowpass, right opens a highpass, center is bit-perfect open. Resonance up to screaming, DRIVE before the filter so it screams louder. MOTION sweeps it across 1-8 bars in sync for build-ups without automation lanes."
+    },
+    {
+      "num": "23", "slug": "furnace", "name": "FURNACE", "type": "saturator",
+      "image": "bsmt-23-furnace.jpg",
+      "description": "Three flavors of heat at 4x oversampling: TAPE glue, TUBE's even-harmonic bloom, IRON's transformer weight. BIAS skews the waveform for vintage asymmetry, TIGHT lets the lows through clean while everything above burns. AUTO gain so drive means color, not just louder."
+    },
+    {
+      "num": "24", "slug": "muzzle", "name": "MUZZLE", "type": "de-esser",
+      "image": "bsmt-24-muzzle.jpg",
+      "description": "Sibilance control that measures esses against the vocal's own level, so one setting survives every gain change. SPLIT mode bites only the harsh band; WIDE ducks everything, old-school. The S-lamp and BITE meter show every clamp as it happens."
+    },
+    {
+      "num": "25", "slug": "vicegrip", "name": "VICEGRIP", "type": "3-band OTT compressor",
+      "image": "bsmt-25-vicegrip.jpg",
+      "description": "Upward AND downward compression per band: quiet details get lifted, peaks get clamped, everything gets dense. One DEPTH knob scales the whole squeeze, TIME makes it pump or breathe. The modern trap sheen, from subtle glue to full crush."
+    },
+    {
+      "num": "26", "slug": "windpipe", "name": "WINDPIPE", "type": "breath control",
+      "image": "bsmt-26-windpipe.jpg",
+      "description": "Detects breaths by their level, texture and noisiness — never by guesswork — and ducks them by exactly the amount you choose. Or push REDUCTION positive and BOOST them for that close-mic ASMR intimacy. LISTEN mode plays only what it flagged so you can trust it."
+    },
+    {
+      "num": "27", "slug": "mouthpiece", "name": "MOUTHPIECE", "type": "one-knob vocal strip",
+      "image": "bsmt-27-mouthpiece.jpg",
+      "description": "A full vocal chain — gate, KNUCKLE's compressor core, de-esser, tone and air, saturation — driven by one MOUTH knob. Five small trims bias each stage when you want a say. Record, turn the knob until it sounds mixed, keep rapping."
+    }
+  ]
+}
