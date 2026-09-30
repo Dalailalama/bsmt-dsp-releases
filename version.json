@@ -1,16 +1,16 @@
 {
   "product": "BSMT.DSP",
-  "version": "1.1.0",
-  "date": "2026-08-08",
+  "version": "1.2.0",
+  "date": "2026-09-30",
   "plugins": 27,
   "windows": {
-    "installer": "https://github.com/Dalailalama/bsmt-dsp-releases/releases/download/v1.1.0/BSMT-DSP-Setup-1.1.0.exe",
-    "size_mb": 5.9
+    "installer": "https://github.com/Dalailalama/bsmt-dsp-releases/releases/download/v1.2.0/BSMT-DSP-Setup-1.2.0.exe",
+    "size_mb": 8.2
   },
   "mac": {
-    "installer": "https://github.com/Dalailalama/bsmt-dsp-releases/releases/download/v1.1.0/BSMT-DSP-mac-1.1.0.zip",
-    "size_mb": 46.8
+    "installer": "https://github.com/Dalailalama/bsmt-dsp-releases/releases/download/v1.2.0/BSMT-DSP-mac-1.2.0.zip",
+    "size_mb": 47.8
   },
-  "notes": "27 plugins. 19 new: doubler, vocal rider, formant mangler, spectral ducker, resonance suppressor, 808 enhancer, throw FX, vocoder, pump, gate, imager, ensemble, lo-fi, filter, saturator, de-esser, OTT, breath control, vocal strip.",
+  "notes": "All 27 plugins revised: safer with every buffer size and sample rate, no clicks when moving controls, cleaner highs, far less aliasing. New: ECO mode, plugin types shown in your DAW, UPDATE badge, choose your VST3 folder.",
   "release_page": "https://github.com/Dalailalama/bsmt-dsp-releases/releases/latest"
 }
